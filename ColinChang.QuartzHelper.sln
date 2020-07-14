@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColinChang.QuartzHelper", "ColinChang.QuartzHelper\ColinChang.QuartzHelper.csproj", "{42B9A43F-97B9-4294-B18F-1EFD3715D184}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColinChang.QuartzHelper.Test", "ColinChang.QuartzHelper.Test\ColinChang.QuartzHelper.Test.csproj", "{6268227B-4E98-4605-98F4-655732CB605F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColinChang.QuartzHelper.Examples", "ColinChang.QuartzHelper.Examples\ColinChang.QuartzHelper.Examples.csproj", "{D5B37605-C37A-4809-A4B4-CD2BD648DD84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		{42B9A43F-97B9-4294-B18F-1EFD3715D184}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42B9A43F-97B9-4294-B18F-1EFD3715D184}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42B9A43F-97B9-4294-B18F-1EFD3715D184}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6268227B-4E98-4605-98F4-655732CB605F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6268227B-4E98-4605-98F4-655732CB605F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6268227B-4E98-4605-98F4-655732CB605F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6268227B-4E98-4605-98F4-655732CB605F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5B37605-C37A-4809-A4B4-CD2BD648DD84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B37605-C37A-4809-A4B4-CD2BD648DD84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B37605-C37A-4809-A4B4-CD2BD648DD84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B37605-C37A-4809-A4B4-CD2BD648DD84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

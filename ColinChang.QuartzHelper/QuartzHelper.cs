@@ -123,6 +123,23 @@ namespace ColinChang.QuartzHelper
                 .Build();
         }
 
+        /// <summary>
+        /// 创建一个触发器
+        /// </summary>
+        /// <param name="key">Trigger名称和组名</param>
+        /// <param name="cron">Cron表达式</param>
+        /// <param name="startTimeUtc">开始时间</param>
+        /// <returns></returns>
+        public static ITrigger CreateTrigger(TriggerKey key, string cron, DateTime startTimeUtc, DateTime endTimeUtc)
+        {
+            return TriggerBuilder.Create()
+                .WithIdentity(key)
+                .WithCronSchedule(cron)
+                .StartAt(startTimeUtc)
+                .EndAt(endTimeUtc)
+                .Build();
+        }
+
         public static ITrigger CreateTrigger(TriggerKey key, string cron)
         {
             return CreateTrigger(key, cron, DateTime.UtcNow);
@@ -162,7 +179,7 @@ namespace ColinChang.QuartzHelper
             return jobTrigger;
         }
 
-        
+
         /// <summary>
         /// 按照$"{keyword}_Job", $"{keyword}_JobGroup", $"{keyword}_Trigger", $"{keyword}_TriggerGroup"
         /// 规则生成默认Job和Trigger名称和分组名称
@@ -190,14 +207,14 @@ namespace ColinChang.QuartzHelper
 
         static Scheduler()
         {
-            async void Initialize()
+            async Task Initialize()
             {
                 Singleton = await new StdSchedulerFactory(
                         QuartzHelper.BuildSchedulerProperties("GlobalSchedulerClient"))
                     .GetScheduler();
                 await Singleton.Start();
             }
-
+            
             Initialize();
         }
     }
