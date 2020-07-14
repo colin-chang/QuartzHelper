@@ -4,13 +4,15 @@
         <TargetFramework>netstandard2.1</TargetFramework>
         <Authors>Colin Chang</Authors>
         <Description>A helper for Quartz.Net.Make it easier to use Quartz in .Net Application.</Description>
-        <Copyright>A helper for Quartz.Net.Make it easier to use Quartz in .Net Application.</Copyright>
+        <Copyright>https://ccstudio.org</Copyright>
         <PackageLicenseUrl>https://raw.githubusercontent.com/colin-chang/QuartzHelper/master/LICENSE</PackageLicenseUrl>
         <PackageProjectUrl>https://github.com/colin-chang/QuartzHelper</PackageProjectUrl>
         <RepositoryUrl>https://github.com/colin-chang/QuartzHelper</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>
         <PackageTags>Quartz Quartz.Net Timer TaskTimer</PackageTags>
         <LangVersion>8</LangVersion>
+        <PackageVersion>1.0.1</PackageVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>

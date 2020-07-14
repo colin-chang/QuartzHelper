@@ -214,7 +214,7 @@ namespace ColinChang.QuartzHelper
                     .GetScheduler();
                 await Singleton.Start();
             }
-            
+
             Initialize();
         }
     }
