@@ -1,7 +1,7 @@
 # QuartzHelper
 A helper for Quartz.Net.Make it easier to use Quartz in .Net Application.
 
-**Nuget**
+## Nuget
 ```sh
 # Package Manager
 Install-Package ColinChang.QuartzHelper
@@ -12,7 +12,7 @@ dotnet add package ColinChang.QuartzHelper
 
 About how to use this,please check the [Unit Test](https://github.com/colin-chang/QuartzHelper/tree/master/ColinChang.QuartzHelper.Test) project. 
 
-**Compensation Mechanism**
+## Compensation Mechanism
 
 There is a task compensation mechanism in most of the timed task frameworks, such as Quartz,Hangfire.Let's briefly explain how this mechanism works.
 
